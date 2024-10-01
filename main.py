@@ -9,4 +9,4 @@ async def root():
 
 @app.get("/teste4")
 async def funcaoteste():
-    return {"teste": True, "UHUUUUUUUUULLLLLLLLLLLLLL  ":}
+    return {"teste": True, "UHUUUUUUUUULLLLLLLLLLL  ":}
