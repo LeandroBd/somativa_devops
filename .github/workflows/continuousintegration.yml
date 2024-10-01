@@ -16,6 +16,7 @@ jobs:
         with:
           linter: pylint
 
+
     docker:
       runs-on: ubuntu-latest
       steps:
@@ -45,4 +46,3 @@ jobs:
       uses: johnnyhuy/actions-discord-git-webhook@main
       with:
         webhook_url: ${{ secrets.discord_webhook }}
-
